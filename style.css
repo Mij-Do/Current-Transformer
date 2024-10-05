@@ -25,6 +25,11 @@
     }
 }
 
+.container .first-child .header {
+    margin-bottom: 20px;
+}
+
+
 .container input {
     display: block;
     outline: none;
@@ -37,7 +42,7 @@
 }
 
 
-.container label , h1{
+.container label , h1 , h3{
     animation: labelColors 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -73,8 +78,14 @@
     }
 }
 
-
-/*  Responsive */
+#select {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
 
 
 
