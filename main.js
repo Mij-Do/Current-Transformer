@@ -17,11 +17,15 @@ transform.addEventListener("click" , function() {
     
     // select the current
     if (selectValue === "USA") {
-        result.value =  getValue * 50;
+        result.value =  (getValue * 48.60).toFixed(2);
     } else if (selectValue === "EURO") {
-        result.value =  getValue * 52;
+        result.value =  (getValue * 53.21).toFixed(2);
     } else if (selectValue === "CNY") {
-        result.value =  getValue * 6;
+        result.value =  (getValue * 6.68).toFixed(2);
+    } else if (selectValue === "KSA") {
+        result.value = (getValue * 12.94).toFixed(2);
+    } else if (selectValue === "UAE") {
+        result.value = (getValue * 13.23).toFixed(2);
     }
 });
 
